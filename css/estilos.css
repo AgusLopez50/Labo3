@@ -89,8 +89,14 @@ section{
 }
 .secundario div{
 	width: 33%;
-	padding: 2%;
-	text-align: center;
+  padding: 2%;
+  padding-top: 2%;
+  text-align: center;
+  background-color: #03042a;
+  border: 2px solid #61d718;
+  border-radius: 5px;
+  margin: 8px;
+  padding-bottom: 0px;
 }
 .secundario div a img{
 	width: 100%;
@@ -199,6 +205,7 @@ article p {
   color: white; /* Cambia el color del texto si es necesario */
   display: inline; /* Para que el fondo se ajuste al texto */
   text-align: center;
+  font-size: 22px;
 }
 
 .font-rickandmorty{
@@ -414,11 +421,14 @@ ul div:hover .menu-item-8 {
 /* CSS FORMULARIO */
 
 .contact_form{  
-  width: 460px; 
+  width: 528px; 
   height: auto;
-  margin: 80px auto;
+  margin: 35px auto;
   border-radius: 10px;
   text-align: center;
+  background-color: #03042a;
+  border: 2px solid #61d718;
+  border-radius: 5px;
 }
 
 
@@ -510,25 +520,6 @@ button p{
 	-webkit-box-shadow: 3px 6px 7px 0px rgba(97,215,94,0.81);
 	-moz-box-shadow: 10px 9px 10px 3px rgba(97,215,94,0.81);
 	background-color: #03042a;
-}
-
-.font-rickandmortyform{
-  font-family: 'Get Schwifty';
-  color: #08BAE3;
-  z-index: 50;
-  -webkit-text-stroke: 1px rgb(232 217 17 / 50%);
-  border: 1px solid #97d848;
-  padding: 5px;
-  margin-bottom: 4px;
-  background-color: #03042a;
-  font-size: 1.8rem;
-}
-
-h3 {
-	margin-top:5px;
-	border: 1px solid #97d848;
-  padding: 10px; 
-  background-color: #03042a;
 }
 
 .costado {
@@ -651,8 +642,9 @@ h3 {
 .font-rickandmorty-h1{
   font-family: 'Get Schwifty';
   color: #08BAE3;
-  font-size: 1.8rem;
+  font-size: 40px;
   -webkit-text-stroke: 1px rgb(232 217 17 / 50%);
+  margin: 34px;
 }
 .temph1{
 	font-family: 'Get Schwifty';
@@ -676,7 +668,8 @@ h3 {
 }
 
 .padcos {
-	padding: 60px
+	padding-left: 60px;
+  padding-right: 60px;
 }
 
 @media (max-width: 576px) { 
@@ -880,7 +873,7 @@ article p {
 .descripcion-personaje-l {
   margin-bottom: auto;
   margin-top: 2%;
-  margin-left: 1%;
+  margin-left: 3%;
   margin-right: 73px;
   text-align: left;
 }
@@ -957,7 +950,7 @@ article p {
   color: #08BAE3;
   -webkit-text-stroke: 1px rgb(232 217 17 / 50%);
   margin-top:1px;
-  padding-left: 270px;
+  padding-left: 280px;
   margin-bottom:5px;
 }
 .imagen {
@@ -967,20 +960,20 @@ article p {
 }
 .texto {
   margin-top: auto;
-  margin-bottom: 2px;
-  padding-left: 268px;
+  margin-bottom: 4px;
+  padding-left: 280px;
   text-align: left;
 }
 .texto11 {
-	margin-top: 0px;
-  margin-bottom: 2px;
-  padding-left: 269px;
+	margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 280px;
   text-align: left;
 }
 .textoult{
-	margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 268px;
+	margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 280px;
   text-align: left;
 }
 .imagen img {
